@@ -1,0 +1,17 @@
+body {
+	background-color: white
+	;
+}
+
+h1 {
+	color: black;
+	font-weight:normal;
+	<font size ="-1">
+}
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+.page-content{
+overflow: hidden;
+}
