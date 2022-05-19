@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="normalize.css" media="screen">
+<link rel="stylesheet" href="resets.css" media="screen">
+<link rel="stylesheet" href="styles.css" media="screen">
+</head>
+
+<body>
+<ul class="nav" id="mynav">
+<a href="#Home" class="active">Home</a>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+</ul>
+
+<div class="card" id="about">
+<p class="card-header">About</p>
+<p class="card-body">Hello! Tell us about yourself.</p>
+</div>
+<div class="card" id="education">
+<p class="card-header">Education</p>
+<p class="card-body">Tell us about your education</p>
+</div>
+<div class="card" id="skills">
+<p class="card-header">Skills</p>
+<p class="card-body">Tell us about your IT Skills
+</div>
+<div class="card" id="portfolio">
+<p class="card-header">Portfolio</p>
+<p class="card-body">Share your previous IT projects</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mynav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+</body>
